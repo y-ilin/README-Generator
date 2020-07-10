@@ -50,28 +50,28 @@ function generateREADME(answers) {
     return `
 # ${answers.title}
 
-# Description
+## Description
 ${answers.description}
 
-# Table of Contents
+## Table of Contents
 ${answers.tableOfContents}
 
-# Installation
+## Installation
 ${answers.installation}
 
-# Usage
+## Usage
 ${answers.usage}
 
-# License
+## License
 ${answers.license}
 
-# Contributing
+## Contributing
 ${answers.contributing}
 
-# Tests
+## Tests
 ${answers.tests}
 
-# Questions
+## Questions
 My GitHub: ${answers.github}
 Any questions regarding this repository can be directed to ${answers.email}
 
