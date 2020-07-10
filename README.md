@@ -1,6 +1,7 @@
 
-# Test title
+    # Test Title
 
+<<<<<<< HEAD
 ## Description
 Test description here
 
@@ -25,4 +26,31 @@ Test instructions here
 ## Questions
 My GitHub: undefined
 Any questions regarding this repository can be directed to undefined
+=======
+    # Description
+    This is a test description
 
+    # Table of Contents
+    undefined
+
+    # Installation
+    This is how you install
+
+    # Usage
+    Usage
+
+    # License
+    c
+
+    # Contributing
+    contribution details
+
+    # Tests
+    test
+
+    # Questions
+    My GitHub: undefined
+    Any questions regarding this repository can be directed to undefined
+>>>>>>> parent of e688d07... fix indentation
+
+    
