@@ -48,34 +48,34 @@ function promptUser() {
 
 function generateREADME(answers) {
     return `
-    # ${answers.title}
+# ${answers.title}
 
-    # Description
-    ${answers.description}
+# Description
+${answers.description}
 
-    # Table of Contents
-    ${answers.tableOfContents}
+# Table of Contents
+${answers.tableOfContents}
 
-    # Installation
-    ${answers.installation}
+# Installation
+${answers.installation}
 
-    # Usage
-    ${answers.usage}
+# Usage
+${answers.usage}
 
-    # License
-    ${answers.license}
+# License
+${answers.license}
 
-    # Contributing
-    ${answers.contributing}
+# Contributing
+${answers.contributing}
 
-    # Tests
-    ${answers.tests}
+# Tests
+${answers.tests}
 
-    # Questions
-    My GitHub: ${answers.github}
-    Any questions regarding this repository can be directed to ${answers.email}
+# Questions
+My GitHub: ${answers.github}
+Any questions regarding this repository can be directed to ${answers.email}
 
-    `;
+`;
 }
 
 // Function to generate badge based on promptUser answer.license
