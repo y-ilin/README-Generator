@@ -24,7 +24,7 @@ function promptUser() {
     {
       type: "input",
       name: "usage",
-      message: "Usage information: "
+      message: "Usage information:"
     },
     {
         type: "list",
@@ -89,7 +89,7 @@ async function init() {
 
     const readme = generateREADME(answers);
 
-    await writeFileAsync("README.md", readme);
+    await writeFileAsync("./GeneratedREADME/README.md", readme);
 
     console.log("Successfully wrote to README.md");
   } catch(err) {

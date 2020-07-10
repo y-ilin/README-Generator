@@ -1,20 +1,20 @@
 
-# Test title
+# Super Good Repository Title
 
 ## Description
-Test description here
+Super good description
 
 ## Table of Contents
 undefined
 
 ## Installation
-Installation instructions here
+Good good installation instructions
 
 ## Usage
-Usage information here
+Good good information on how to use
 
 ## License
-b
+c
 
 ## Contributing
 Contribution details here
