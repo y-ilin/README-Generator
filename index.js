@@ -63,7 +63,7 @@ function generateREADME(answers, licenseBadge) {
 ${licenseBadge}
 
 ## Table of Contents
-- [Description](#installation)
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
