@@ -1,9 +1,9 @@
 
-# Sample Repository Title
+# Sample repository title
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
-- [Description](#installation)
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -12,13 +12,13 @@
 - [Questions](#questions)
 
 ## Description
-Good description here
+description here
 
 ## Installation
-Installation isntructions here
+installation instructions here
 
 ## Usage
-usage informaiton here
+usage information here
 
 ## License
 Licensed under the MIT License.
