@@ -1,20 +1,21 @@
 
-# Super Good Repository Title
+# Very Good Repository Title
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-Super good description
+Good description here
 
 ## Table of Contents
 undefined
 
 ## Installation
-Good good installation instructions
+Installation instructions here
 
 ## Usage
-Good good information on how to use
+Usage information here
 
 ## License
-c
+MIT License
 
 ## Contributing
 Contribution details here

@@ -94,7 +94,7 @@ Any questions regarding this repository can be directed to ${answers.email}
 THEN a badge for that license is added hear the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under`
 
 function generateLicenseBadge(license) {
-  const badge = ""
+  let badge = ""
   if (license === "Apache License 2.0") {
     badge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
   } else if (license === "ISC License") {
