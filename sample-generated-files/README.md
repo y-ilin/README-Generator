@@ -1,24 +1,30 @@
 
-# Very Good Repository Title
+# Sample Title
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Description
-Good description here
-
 ## Table of Contents
-undefined
+[Description](#installation)
+[Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[Contributing](#contributing)
+[Tests](#tests)
+[Questions](#questions)
+
+## Description
+Description here
 
 ## Installation
 Installation instructions here
 
 ## Usage
-Usage information here
+Usage informaiton here
 
 ## License
-MIT License
+Licensed under the MIT License.
 
 ## Contributing
-Contribution details here
+Contributiond etails here
 
 ## Tests
 Test instructions here

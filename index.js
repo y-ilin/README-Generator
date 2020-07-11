@@ -30,7 +30,8 @@ function promptUser() {
       type: "list",
       name: "license",
       message: "Choose a license for your application: ",
-      choices: ["Apache License 2.0", "ISC License", "GNU GPLv3", "MIT License"]
+      choices: ["Apache License 2.0", "ISC", "GNU GPLv3", "MIT"],
+      default: "MIT"
     },
     {
       type: "input",
@@ -55,17 +56,22 @@ function promptUser() {
   ]);
 }
 
-
-function generateREADME(answers, license) {
+function generateREADME(answers, licenseBadge) {
     return `
 # ${answers.title}
-${license}
+${licenseBadge}
+
+## Table of Contents
+[Description](#installation)
+[Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[Contributing](#contributing)
+[Tests](#tests)
+[Questions](#questions)
 
 ## Description
 ${answers.description}
-
-## Table of Contents
-${answers.tableOfContents}
 
 ## Installation
 ${answers.installation}
@@ -74,7 +80,7 @@ ${answers.installation}
 ${answers.usage}
 
 ## License
-${answers.license}
+Licensed under the ${answers.license} License.
 
 ## Contributing
 ${answers.contributing}
@@ -89,33 +95,27 @@ Any questions regarding this repository can be directed to ${answers.email}
 `;
 }
 
-// Function to generate badge based on promptUser answer.license
-`WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added hear the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under`
-
 function generateLicenseBadge(license) {
   let badge = ""
   if (license === "Apache License 2.0") {
     badge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-  } else if (license === "ISC License") {
+  } else if (license === "ISC") {
     badge = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
   } else if (license === "GNU GPLv3") {
     badge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
-  } else if (license === "MIT License") {
+  } else if (license === "MIT") {
     badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
   }
-  
   return badge;
 }
-
 
 async function init() {
   try {
     const answers = await promptUser();
-    const license = await generateLicenseBadge(answers.license);
+    const licenseBadge = await generateLicenseBadge(answers.license);
 
     // Writing readme file
-    const readme = generateREADME(answers, license);
+    const readme = generateREADME(answers, licenseBadge);
     await writeFileAsync("./sample-generated-files/README.md", readme);
     console.log("Successfully wrote to README.md");
 
