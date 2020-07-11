@@ -36,7 +36,8 @@ function promptUser() {
     {
       type: "input",
       name: "contributing",
-      message: "Contribution details: "
+      message: "Contribution details: ",
+      default: `To contribute directly to the code base, please see this [How to Contribute](https://github.com/Microsoft/vscode/wiki/How-to-Contribute) document`
     },
     {
       type: "input",
@@ -90,6 +91,7 @@ ${answers.tests}
 
 ## Questions
 The author's GitHub: https://github.com/${answers.github}
+
 Any questions regarding this repository can be directed to ${answers.email}
 
 `;
