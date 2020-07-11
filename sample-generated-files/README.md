@@ -1,5 +1,5 @@
 
-# Sample repository title
+# Sample Repository Title
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
@@ -12,10 +12,10 @@
 - [Questions](#questions)
 
 ## Description
-description here
+Good description here
 
 ## Installation
-installation instructions here
+Installation isntructions here
 
 ## Usage
 usage informaiton here
@@ -24,12 +24,13 @@ usage informaiton here
 Licensed under the MIT License.
 
 ## Contributing
-contribution details here
+To contribute directly to the code base, please see this [How to Contribute](https://github.com/Microsoft/vscode/wiki/How-to-Contribute) document
 
 ## Tests
 test instructions here
 
 ## Questions
 The author's GitHub: https://github.com/y-ilin
-Any questions regarding this repository can be directed to yilinlee19@gmail.co
+
+Any questions regarding this repository can be directed to yilinlee19@gmail.com
 
