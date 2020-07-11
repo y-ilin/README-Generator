@@ -62,13 +62,13 @@ function generateREADME(answers, licenseBadge) {
 ${licenseBadge}
 
 ## Table of Contents
-[Description](#installation)
-[Installation](#installation)
-[Usage](#usage)
-[License](#license)
-[Contributing](#contributing)
-[Tests](#tests)
-[Questions](#questions)
+- [Description](#installation)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description
 ${answers.description}
