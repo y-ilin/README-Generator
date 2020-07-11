@@ -23,6 +23,6 @@ Contribution details here
 Test instructions here
 
 ## Questions
-My GitHub: undefined
-Any questions regarding this repository can be directed to undefined
+The author's GitHub: https://github.com/y-ilin
+Any questions regarding this repository can be directed to yilinlee19@gmail.com
 
