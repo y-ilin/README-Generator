@@ -4,6 +4,7 @@ const util = require("util");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
+// Prompts user for README content
 function promptUser() {
   return inquirer.prompt([
     {
@@ -57,6 +58,7 @@ function promptUser() {
   ]);
 }
 
+// Generates README, taking in user's answers in promptUser function and license badge determined in generateLicenseBadge function
 function generateREADME(answers, licenseBadge) {
     return `
 # ${answers.title}
@@ -97,6 +99,7 @@ Any questions regarding this repository can be directed to ${answers.email}
 `;
 }
 
+// Generates license badge using user's answers from promptUser function
 function generateLicenseBadge(license) {
   let badge = ""
   if (license === "Apache License 2.0") {
@@ -111,16 +114,18 @@ function generateLicenseBadge(license) {
   return badge;
 }
 
+// Main function generating README
 async function init() {
   try {
+    // Prompt user for information
     const answers = await promptUser();
+    // Determine relevant license badge
     const licenseBadge = await generateLicenseBadge(answers.license);
 
-    // Writing readme file
+    // Writing README file
     const readme = generateREADME(answers, licenseBadge);
     await writeFileAsync("./sample-generated-files/README.md", readme);
     console.log("Successfully wrote to README.md");
-
 
   } catch(err) {
     console.log(err);
