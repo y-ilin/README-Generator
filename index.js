@@ -124,7 +124,7 @@ async function init() {
 
     // Writing README file
     const readme = generateREADME(answers, licenseBadge);
-    await writeFileAsync("./sample-generated-files/README.md", readme);
+    await writeFileAsync("./generated-files/README.md", readme);
     console.log("Successfully wrote to README.md");
 
   } catch(err) {
