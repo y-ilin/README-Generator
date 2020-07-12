@@ -43,7 +43,7 @@ node index.js
 Your generated README will be located in the "generated-files" folder.
 
 A screenshot of the entire run-through and the resulting README file:
-![Application Screenshot](./assets/app-screenshot.png)
+![App Screenshot](./assets/app-screenshot.png)
 
 A video version of the full run-through: [![here](./assets/application-run-through.gif)](./assets/application-run-through.gif)
 
