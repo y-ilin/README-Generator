@@ -40,6 +40,8 @@ After installation, you can then run the following command to run the applicatio
 node index.js
 ```
 
+Your generated README will be located in the "generated-files" folder.
+
 ## License
 
 Licensed under the MIT License.
