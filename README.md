@@ -43,9 +43,9 @@ node index.js
 Your generated README will be located in the "generated-files" folder.
 
 A screenshot of the entire run-through and the resulting README file:
-![Application Screenshot](./assets/app-screenshot)
+![Application Screenshot](./assets/app-screenshot.png)
 
-A video version of the full run-through can be found [here](https://github.com/y-ilin/README-Generator/tree/master/assets)
+A video version of the full run-through can be found [here](https://github.com/y-ilin/README-Generator/tree/master/assets).
 
 ## License
 
