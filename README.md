@@ -53,4 +53,4 @@ Licensed under the MIT License.
 
 ## Contributing
 
-To contribute directly to the code base, please see this [How to Contribute](https://github.com/Microsoft/vscode/wiki/How-to-Contribute) document
+To contribute directly to the code base, please see this [How to Contribute](https://github.com/Microsoft/vscode/wiki/How-to-Contribute) document.
