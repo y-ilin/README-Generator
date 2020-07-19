@@ -29,7 +29,7 @@ This command-line application allows for users to easily generate a README for t
 Clone or download the package and open terminal in the package directory. Then run the following command to install all the dependencies in the local node_modules folder:
 
 ```
-npm install
+npm i
 ```
 
 ## Usage
